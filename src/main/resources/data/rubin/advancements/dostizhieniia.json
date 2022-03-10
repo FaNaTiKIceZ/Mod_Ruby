@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "rubin:textures/fon4.png",
     "icon": {
       "item": "rubin:rubin"
     },
@@ -10,7 +9,7 @@
     "description": {
       "translate": "advancements.dostizhieniia.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -34,19 +33,20 @@
   "rewards": {
     "experience": 5,
     "recipes": [
-      "rubin:rubin_armorpickaxerecipe",
-      "rubin:rubin_armoraxerecipe",
-      "rubin:rubin_armorswordrecipe",
-      "rubin:rubin_armorshovelrecipe",
-      "rubin:rubin_armorhoerecipe",
-      "rubin:rubin_armorarmorhelmetrecipe",
-      "rubin:rubin_armorarmorbodyrecipe",
-      "rubin:rubin_armorarmorleggingsrecipe",
-      "rubin:rubin_armorarmorbootsrecipe",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
+      "rubin:deleted_mod_element",
       "rubin:deleted_mod_element",
       "rubin:block_ruda",
       "rubin:rubin_gem8oresmelting",
-      "rubin:rubin_gem8oreblockrecipe"
+      "rubin:deleted_mod_element"
     ]
-  }
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
 }

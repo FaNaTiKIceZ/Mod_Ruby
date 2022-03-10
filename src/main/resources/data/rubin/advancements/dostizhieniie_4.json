@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "rubin:rubin_armor_hoe"
+    },
+    "title": {
+      "translate": "advancements.dostizhieniie_4.title"
+    },
+    "description": {
+      "translate": "advancements.dostizhieniie_4.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dostizhieniie_4": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rubin:rubin_armor_hoe",
+            "durability": {
+              "min": 50,
+              "max": 16000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "rubin:dostizhieniie_5"
+}

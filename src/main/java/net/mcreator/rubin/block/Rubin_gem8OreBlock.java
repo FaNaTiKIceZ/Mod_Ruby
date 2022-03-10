@@ -25,6 +25,8 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
+import net.minecraft.loot.LootContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.MaterialColor;
@@ -35,9 +37,12 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
+import net.mcreator.rubin.item.RubinItem;
 import net.mcreator.rubin.RubinModElements;
 
 import java.util.Random;
+import java.util.List;
+import java.util.Collections;
 
 @RubinModElements.ModElement.Tag
 public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
@@ -58,7 +63,7 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_ORE).hardnessAndResistance(4f, 13f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_ORE).hardnessAndResistance(4.5f, 25f).setLightLevel(s -> 0)
 					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("rubin_gem");
 		}
@@ -71,6 +76,14 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 		@Override
 		public MaterialColor getMaterialColor() {
 			return MaterialColor.STONE;
+		}
+
+		@Override
+		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+			if (!dropsOriginal.isEmpty())
+				return dropsOriginal;
+			return Collections.singletonList(new ItemStack(RubinItem.block, (int) (2)));
 		}
 	}
 
@@ -87,8 +100,6 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.ANDESITE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.END_STONE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -107,17 +118,15 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("rubin:deleted_mod_element")))
-						dimensionCriteria = true;
-					if (dimensionType == World.THE_END)
+					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(80)
-					.square().func_242731_b(1);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(6).square()
+					.func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("rubin_gem"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rubin:rubin_gem"), configuredFeature);
 		}
@@ -125,15 +134,6 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (new ResourceLocation("end_highlands").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("end_barrens").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("end_midlands").equals(event.getName()))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

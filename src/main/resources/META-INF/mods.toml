@@ -9,7 +9,7 @@ displayName="Rubin lite"
 credits="Мод в альфа версии"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="IceZ"
+authors="FaNaTiK_IceZ"
 
 [[dependencies.rubin]]
     modId="minecraft"

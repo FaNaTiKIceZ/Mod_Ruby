@@ -1,26 +1,26 @@
 {
   "display": {
     "icon": {
-      "item": "rubin:rubin_armor_2_armor_chestplate"
+      "item": "rubin:rubin_armor_sword"
     },
     "title": {
-      "translate": "advancements.dostizhieniie_2.title"
+      "translate": "advancements.dostizhieniie_3.title"
     },
     "description": {
-      "translate": "advancements.dostizhieniie_2.descr"
+      "translate": "advancements.dostizhieniie_3.descr"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "dostizhieniie_2": {
+    "dostizhieniie_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "rubin:rubin_armor_2_armor_chestplate",
+            "item": "rubin:rubin_armor_sword",
             "count": {
               "min": 1,
               "max": 1
@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 10
   },
-  "parent": "minecraft:nether/netherite_armor"
+  "parent": "rubin:dostizhieniia"
 }
