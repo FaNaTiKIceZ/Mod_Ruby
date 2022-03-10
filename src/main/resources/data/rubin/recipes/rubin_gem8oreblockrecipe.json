@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    }
+  ],
+  "result": {
+    "item": "rubin:rubin_gem_4_ore_block",
+    "count": 1
+  }
+}

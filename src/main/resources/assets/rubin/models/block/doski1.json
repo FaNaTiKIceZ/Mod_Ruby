@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubin:blocks/doski300",
+    "particle": "rubin:blocks/doski300"
+  }
+}

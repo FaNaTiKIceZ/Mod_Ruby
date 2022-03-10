@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rubin_gem_pickaxe",
+    "customModelName": "Normal",
+    "name": "Рубиновая кирка",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Rubintab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.5,
+    "enchantability": 22,
+    "damageVsEntity": 6.5,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Rubin"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

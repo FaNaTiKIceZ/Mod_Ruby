@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "rubin:rubin"
+    },
+    "1": {
+      "item": "rubin:rubin"
+    },
+    "2": {
+      "item": "rubin:rubin"
+    },
+    "3": {
+      "item": "rubin:rubin"
+    },
+    "5": {
+      "item": "rubin:rubin"
+    },
+    "6": {
+      "item": "rubin:rubin"
+    },
+    "8": {
+      "item": "rubin:rubin"
+    }
+  },
+  "result": {
+    "item": "rubin:rubin_armor_2_armor_leggings",
+    "count": 1
+  }
+}

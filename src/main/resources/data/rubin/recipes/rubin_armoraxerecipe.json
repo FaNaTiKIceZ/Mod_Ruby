@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "rubin:rubin"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "rubin:rubin_armor_axe",
+    "count": 1
+  }
+}

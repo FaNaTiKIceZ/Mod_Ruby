@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_block"
+  },
+  "addition": {
+    "item": "rubin:rubin"
+  },
+  "result": {
+    "item": "rubin:rubinovyighladkiiblok"
+  }
+}

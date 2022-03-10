@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rubin:items/rubin_armor2_body"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "rubin:rubin_armor_2_armor_boots"
+    },
+    "title": {
+      "translate": "advancements.dostizhieniie_2.title"
+    },
+    "description": {
+      "translate": "advancements.dostizhieniie_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dostizhieniie_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "rubin:dostizhieniia"
+}

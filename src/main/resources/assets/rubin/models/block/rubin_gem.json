@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubin:blocks/rubin_new2",
+    "particle": "rubin:blocks/rubin_new2"
+  }
+}

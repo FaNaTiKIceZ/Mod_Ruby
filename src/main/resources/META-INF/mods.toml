@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="rubin"
+version="Alpha"
+displayName="Rubin lite"
+credits="Мод в альфа версии"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="IceZ"
+
+[[dependencies.rubin]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rubin]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.20]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

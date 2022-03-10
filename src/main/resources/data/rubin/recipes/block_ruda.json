@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubin:rubin_gem_4_ore_block"
+    }
+  ],
+  "result": {
+    "item": "rubin:rubin",
+    "count": 9
+  }
+}

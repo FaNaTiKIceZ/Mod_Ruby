@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Красный незерит",
+    "achievementDescription": "Получить свой первый рубин",
+    "achievementIcon": {
+      "value": "CUSTOM:Rubin"
+    },
+    "background": "fon4.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Rubin_armorPickaxeRecipe",
+      "Rubin_armorAxeRecipe",
+      "Rubin_armorSwordRecipe",
+      "Rubin_armorShovelRecipe",
+      "Rubin_armorHoeRecipe",
+      "Rubin_armorArmorHelmetRecipe",
+      "Rubin_armorArmorBodyRecipe",
+      "Rubin_armorArmorLeggingsRecipe",
+      "Rubin_armorArmorBootsRecipe",
+      "Slomannyioskolok",
+      "Blokruda",
+      "Rubin_gem8OreSmelting",
+      "Rubin_gem8OreBlockRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"174\" y=\"94\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Rubin</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

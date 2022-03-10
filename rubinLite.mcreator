@@ -1,0 +1,277 @@
+{
+  "mod_elements": [
+    {
+      "name": "Rubin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorAxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorSwordRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorHoeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armor2Armor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Rubin_gem4OreBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_gem8Ore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_gem"
+    },
+    {
+      "name": "Rubin_gem8OreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_gem8OreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Gladkiiblok",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubintab",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Blokruda",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Dostizhieniia",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniia"
+    },
+    {
+      "name": "Rubinovyighladkiiblok",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubinovyighladkiiblok"
+    },
+    {
+      "name": "Dostizhieniie2",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_2"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.potion.effect.ddw": "Ddwппп",
+      "item.rubin.rubin_armorpickaxe": "Рубиновая кирка",
+      "item.rubin.rubin_armoraxe": "Рубиновый топор",
+      "item.minecraft.lingering_potion.effect.ddw": "Lingering Ddwппп",
+      "item.rubin.rubin_armor2armorbody": "Рубиновый нагрудник",
+      "subtitles.skrimer": "",
+      "itemGroup.tabrubintab": "Рубины",
+      "effect.rubinzelee": "Rubin zelee",
+      "subtitles.vc": "",
+      "item.rubin.rubin_armorshovel": "Рубиновая лопата",
+      "item.rubin.rubin_armor2armorlegs": "Рубиновые поножи",
+      "block.rubin.doski1": "Рубцовые доски",
+      "item.rubin.rubin_armor_shovel": "Рубиновая лопата",
+      "item.rubin.rubin_armor_axe": "Рубиновый топор",
+      "block.rubin.rubin_gem8ore": "Рубиновая руда",
+      "block.rubin.rubin_gem_4_ore_block": "Рубиновый блок",
+      "block.rubin.rubin_gem4oreblock": "Рубиновый блок",
+      "item.rubin.rubin_armor_2_armor_helmet": "Рубиновый шлем",
+      "subtitles.tema_dlia_bioma": "Игрок телепортируется",
+      "effect.ddw": "Ddw",
+      "item.rubin.rubin": "Рубин",
+      "item.rubin.rubin_armor_hoe": "Рубиновая мотыга",
+      "advancements.dostizhieniia.descr": "Получить свой первый рубин",
+      "item.rubin.rubin_armor_2_armor_boots": "Рубиновые ботинки",
+      "item.minecraft.splash_potion.effect.rubinzelee": "Splash Рубец",
+      "item.rubin.rubin_armor_2_armor_leggings": "Рубиновые поножи",
+      "advancements.dostizhieniia.title": "Красный незерит",
+      "item.rubin.rubin_armor_sword": "Рубиновый меч",
+      "subtitles.hodba": "",
+      "item.rubin.kuritsa": "Рубцовая курица Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.rubinzelee": "Arrow of Рубец",
+      "advancements.dostizhieniie_2.descr": "Войти в измерение",
+      "item.rubin.rubin_armorsword": "Рубиновый меч",
+      "block.rubin.rubin_gem": "Рубиновая руда",
+      "subtitles.goloca": "Что-то упало",
+      "item.rubin.rubin_armor2armorboots": "Рубиновые ботинки",
+      "item.minecraft.tipped_arrow.effect.ddw": "Arrow of Ddwппп",
+      "subtitles.portal": "Игрок умирает",
+      "advancements.dostizhieniie_2.title": "Добро пожаловать в Россию!",
+      "subtitles.dlia_portala": "Предмет подобран",
+      "item.minecraft.splash_potion.effect.ddw": "Splash Ddwппп",
+      "item.rubin.rubin_armor2armorhelmet": "Рубиновый шлем",
+      "block.rubin.rubinovyighladkiiblok": "Гладкий рубиновый блок",
+      "subtitles.plastinka": "",
+      "item.minecraft.potion.effect.rubinzelee": "Рубец",
+      "subtitles.golem": "Игрок телепортируется",
+      "subtitles.plastinka2": "",
+      "item.minecraft.lingering_potion.effect.rubinzelee": "Lingering Рубец",
+      "item.rubin.rubin_armor_pickaxe": "Рубиновая кирка",
+      "item.rubin.rubin_armorhoe": "Рубиновая мотыга",
+      "item.rubin.rubin_armor_2_armor_chestplate": "Рубиновый нагрудник"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rubin",
+    "modName": "Rubin lite",
+    "version": "Alpha",
+    "author": "IceZ",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": true,
+    "modPicture": "ava",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Мод в альфа версии",
+    "modElementsPackage": "net.mcreator.rubin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

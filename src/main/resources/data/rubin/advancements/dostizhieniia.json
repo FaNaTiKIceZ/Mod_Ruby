@@ -1,0 +1,52 @@
+{
+  "display": {
+    "background": "rubin:textures/fon4.png",
+    "icon": {
+      "item": "rubin:rubin"
+    },
+    "title": {
+      "translate": "advancements.dostizhieniia.title"
+    },
+    "description": {
+      "translate": "advancements.dostizhieniia.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dostizhieniia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rubin:rubin",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "rubin:rubin_armorpickaxerecipe",
+      "rubin:rubin_armoraxerecipe",
+      "rubin:rubin_armorswordrecipe",
+      "rubin:rubin_armorshovelrecipe",
+      "rubin:rubin_armorhoerecipe",
+      "rubin:rubin_armorarmorhelmetrecipe",
+      "rubin:rubin_armorarmorbodyrecipe",
+      "rubin:rubin_armorarmorleggingsrecipe",
+      "rubin:rubin_armorarmorbootsrecipe",
+      "rubin:deleted_mod_element",
+      "rubin:block_ruda",
+      "rubin:rubin_gem8oresmelting",
+      "rubin:rubin_gem8oreblockrecipe"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Рубины",
+    "icon": {
+      "value": "CUSTOM:Rubin"
+    },
+    "showSearch": true
+  }
+}

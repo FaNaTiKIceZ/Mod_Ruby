@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "rubin:items/rubin_gem_hoe"
+  }
+}
