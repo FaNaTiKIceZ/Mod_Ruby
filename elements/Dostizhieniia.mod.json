@@ -30,7 +30,7 @@
     ],
     "rewardFunction": "No function",
     "rewardXP": 5,
-    "achievementType": "goal",
+    "achievementType": "task",
     "parent": {
       "value": "nether/obtain_ancient_debris"
     },

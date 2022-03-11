@@ -154,6 +154,26 @@
       "locked_code": false,
       "registry_name": "miech",
       "path": "~/crafts"
+    },
+    {
+      "name": "Motygha",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motygha",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -16,22 +16,11 @@
   },
   "criteria": {
     "dostizhieniie_4": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "rubin:rubin_armor_hoe",
-            "durability": {
-              "min": 50,
-              "max": 16000
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 99
   },
   "parent": "rubin:dostizhieniie_5"
 }

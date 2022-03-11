@@ -77,30 +77,34 @@ public class Rubin_armor2ArmorItem extends RubinModElements.ModElement {
 				return 0.3f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(RubintabItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("rubin_armor_2_armor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(RubintabItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("rubin_armor_2_armor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(RubintabItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("rubin_armor_2_armor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(RubintabItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("rubin_armor_2_armor_boots"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+					}
+				}.setRegistryName("rubin_armor_2_armor_helmet"));
+		elements.items.add(
+				() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+					}
+				}.setRegistryName("rubin_armor_2_armor_chestplate"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+					}
+				}.setRegistryName("rubin_armor_2_armor_leggings"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+					}
+				}.setRegistryName("rubin_armor_2_armor_boots"));
 	}
 
 }

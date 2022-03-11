@@ -25,7 +25,7 @@ public class Rubin_armorHoeItem extends RubinModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2031;
+				return 10;
 			}
 
 			public float getEfficiency() {
