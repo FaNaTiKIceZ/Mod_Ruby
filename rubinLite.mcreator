@@ -78,23 +78,9 @@
       "locked_code": false
     },
     {
-      "name": "Gladkiiblok",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
       "name": "Rubintab",
       "type": "tab",
       "sortid": 39,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
-      "name": "Blokruda",
-      "type": "recipe",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false
     },
@@ -105,14 +91,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dostizhieniia"
-    },
-    {
-      "name": "Rubinovyighladkiiblok",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubinovyighladkiiblok"
     },
     {
       "name": "Dostizhieniie2",
@@ -174,6 +152,120 @@
           }
         ]
       }
+    },
+    {
+      "name": "Kirka",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirka",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Motyghakraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motyghakraft",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Topor",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topor",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Lopata",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lopata",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Shliem",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shliem",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Kirasa",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirasa",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ponozhi",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponozhi",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Botinki",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botinki",
+      "path": "~/crafts"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks"
+    },
+    {
+      "name": "Blokrudy",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blokrudy",
+      "path": "~/crafts"
+    },
+    {
+      "name": "DiekraftBlokRudy",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diekraft_blok_rudy",
+      "path": "~/crafts"
     }
   ],
   "variable_elements": [],
@@ -182,15 +274,15 @@
     "en_us": {
       "item.minecraft.potion.effect.ddw": "Ddwппп",
       "advancements.dostizhieniie_3.title": "Смерть для нежити",
-      "item.rubin.rubin_armorpickaxe": "Рубиновая кирка",
       "advancements.dostizhieniie_3.descr": "Получить рубиновый меч",
+      "item.rubin.rubin_armorpickaxe": "Рубиновая кирка",
       "item.rubin.rubin_armoraxe": "Рубиновый топор",
       "item.minecraft.lingering_potion.effect.ddw": "Lingering Ddwппп",
       "item.rubin.rubin_armor2armorbody": "Рубиновый нагрудник",
       "subtitles.skrimer": "",
-      "itemGroup.tabrubintab": "Рубины",
-      "effect.rubinzelee": "Rubin zelee",
       "subtitles.vc": "",
+      "effect.rubinzelee": "Rubin zelee",
+      "itemGroup.tabrubintab": "Рубины",
       "item.rubin.rubin_armorshovel": "Рубиновая лопата",
       "item.rubin.rubin_armor2armorlegs": "Рубиновые поножи",
       "block.rubin.doski1": "Рубцовые доски",
@@ -227,7 +319,6 @@
       "subtitles.dlia_portala": "Предмет подобран",
       "item.minecraft.splash_potion.effect.ddw": "Splash Ddwппп",
       "item.rubin.rubin_armor2armorhelmet": "Рубиновый шлем",
-      "block.rubin.rubinovyighladkiiblok": "Гладкий рубиновый блок",
       "advancements.dostizhieniie_4.title": "Чел, ты серьёзно?",
       "subtitles.plastinka": "",
       "item.minecraft.potion.effect.rubinzelee": "Рубец",
@@ -254,7 +345,7 @@
     "version": "Alpha",
     "author": "FaNaTiK_IceZ",
     "websiteURL": "https://mcreator.net",
-    "license": "All Rights Reserved",
+    "license": "Apache License version 2.0",
     "disableForgeVersionCheck": false,
     "serverSideOnly": true,
     "modPicture": "ava",

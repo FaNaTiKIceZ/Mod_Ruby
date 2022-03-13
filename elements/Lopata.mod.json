@@ -9,15 +9,15 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Blocks.DIAMOND_BLOCK"
+      "value": "Items.NETHERITE_SHOVEL"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:Rubin"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Rubinovyighladkiiblok"
+      "value": "CUSTOM:Rubin_armorShovel"
     },
-    "name": "gladkiiblok",
+    "name": "lopata",
     "namespace": "mod"
   }
 }

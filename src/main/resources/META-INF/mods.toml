@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All Rights Reserved"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="rubin"

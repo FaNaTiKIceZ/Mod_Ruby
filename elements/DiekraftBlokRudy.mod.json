@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:Rubin"
     },
-    "name": "block_ruda",
+    "name": "diekraft_blok_rudy",
     "namespace": "mod"
   }
 }

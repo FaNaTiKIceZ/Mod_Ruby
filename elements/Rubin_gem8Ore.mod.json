@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "rubin_new2",
+    "texture": "ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -35,7 +35,7 @@
     "name": "Рубиновая руда",
     "specialInfo": [],
     "hardness": 4.5,
-    "resistance": 25.0,
+    "resistance": 100.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
