@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Ну и зачем оно тебе?",
-    "achievementDescription": "Получить рубинувую мотыгу",
+    "achievementName": "Ну и зачем это тебе?",
+    "achievementDescription": "Получить рубиновую мотыгу",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 10,
-    "achievementType": "goal",
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:Dostizhieniie3"
     },

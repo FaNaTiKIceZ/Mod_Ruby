@@ -63,7 +63,7 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_ORE).hardnessAndResistance(4.5f, 100f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_ORE).hardnessAndResistance(30f, 1200f).setLightLevel(s -> 1)
 					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("rubin_gem");
 		}
@@ -83,7 +83,7 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RubinItem.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(RubinItem.block));
 		}
 	}
 
@@ -99,7 +99,11 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.ANDESITE)
+			if (blockAt.getBlock() == Blocks.LAVA)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIRT)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -125,8 +129,8 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(6).square()
-					.func_242731_b(3);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(8).square()
+					.func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("rubin_gem"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rubin:rubin_gem"), configuredFeature);
 		}
@@ -134,6 +138,19 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("bamboo_jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_edge").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

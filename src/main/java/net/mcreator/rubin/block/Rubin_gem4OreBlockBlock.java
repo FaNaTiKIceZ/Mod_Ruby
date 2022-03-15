@@ -38,8 +38,8 @@ public class Rubin_gem4OreBlockBlock extends RubinModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 100f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.IRON).sound(SoundType.NETHERITE).hardnessAndResistance(50f, 1200f).setLightLevel(s -> 0)
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("rubin_gem_4_ore_block");
 		}
 
