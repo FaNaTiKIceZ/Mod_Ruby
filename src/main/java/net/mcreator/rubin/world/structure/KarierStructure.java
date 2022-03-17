@@ -50,12 +50,12 @@ public class KarierStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 2000) {
-						int count = random.nextInt(1) + 1;
+					if ((random.nextInt(1000000) + 1) <= 1000) {
+						int count = random.nextInt(2) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
-							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
+							int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 							j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
