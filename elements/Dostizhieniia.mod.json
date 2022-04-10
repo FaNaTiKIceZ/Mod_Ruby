@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Красный незерит",
-    "achievementDescription": "Получить свой первый рубин",
+    "achievementName": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+    "achievementDescription": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ",
     "achievementIcon": {
       "value": "CUSTOM:Rubin"
     },

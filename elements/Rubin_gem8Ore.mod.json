@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "block",
   "definition": {
     "texture": "ore",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Рубиновая руда",
+    "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",
     "specialInfo": [],
     "hardness": 30.0,
     "resistance": 1200.0,
@@ -82,16 +82,16 @@
     "breakSound": {
       "value": ""
     },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
+    "fallSound": {
       "value": ""
     },
     "hitSound": {
       "value": ""
     },
-    "fallSound": {
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "luminance": 1,
@@ -155,6 +155,7 @@
         "value": "Blocks.DIRT#0"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 1,
     "frequencyOnChunk": 2,
     "minGenerateHeight": 1,

@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Ну и зачем это тебе?",
-    "achievementDescription": "Получить рубиновую мотыгу",
+    "achievementName": "пїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ?",
+    "achievementDescription": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },

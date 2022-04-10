@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem_shovel",
     "customModelName": "Normal",
-    "name": "Рубиновая лопата",
+    "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

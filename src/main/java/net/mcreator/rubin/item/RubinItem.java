@@ -9,14 +9,14 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class RubinItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin")
+@RubyModElements.ModElement.Tag
+public class RubinItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin")
 	public static final Item block = null;
 
-	public RubinItem(RubinModElements instance) {
+	public RubinItem(RubyModElements instance) {
 		super(instance, 1);
 	}
 

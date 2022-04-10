@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem_pickaxe",
     "customModelName": "Normal",
-    "name": "Рубиновая кирка",
+    "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

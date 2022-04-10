@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Ты серьёзно переосмыслил свою жизнь?",
-    "achievementDescription": "Сломать рубиновую мотыгу",
+    "achievementName": "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?",
+    "achievementDescription": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },

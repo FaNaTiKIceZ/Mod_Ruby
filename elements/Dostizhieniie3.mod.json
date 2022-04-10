@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Смерть для нежити",
-    "achievementDescription": "Получить рубиновый меч",
+    "achievementName": "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
+    "achievementDescription": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorSword"
     },

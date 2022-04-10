@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ruby:rubin_armor_hoe"
+    },
+    "title": {
+      "translate": "advancements.dostizhieniie_4.title"
+    },
+    "description": {
+      "translate": "advancements.dostizhieniie_4.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dostizhieniie_4": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 99
+  },
+  "parent": "ruby:dostizhieniie_5"
+}

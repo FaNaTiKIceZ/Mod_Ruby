@@ -38,18 +38,18 @@ import net.minecraft.block.Block;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
 import net.mcreator.rubin.item.RubinItem;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_gem")
+@RubyModElements.ModElement.Tag
+public class Rubin_gem8OreBlock extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_gem")
 	public static final Block block = null;
 
-	public Rubin_gem8OreBlock(RubinModElements instance) {
+	public Rubin_gem8OreBlock(RubyModElements instance) {
 		super(instance, 8);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -116,7 +116,7 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("rubin:rubin_gem_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("ruby:rubin_gem_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -132,7 +132,7 @@ public class Rubin_gem8OreBlock extends RubinModElements.ModElement {
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(8).square()
 					.func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("rubin_gem"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rubin:rubin_gem"), configuredFeature);
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ruby:rubin_gem"), configuredFeature);
 		}
 	}
 

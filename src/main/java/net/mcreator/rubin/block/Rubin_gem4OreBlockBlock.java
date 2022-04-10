@@ -16,17 +16,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_gem4OreBlockBlock extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_gem_4_ore_block")
+@RubyModElements.ModElement.Tag
+public class Rubin_gem4OreBlockBlock extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_gem_4_ore_block")
 	public static final Block block = null;
 
-	public Rubin_gem4OreBlockBlock(RubinModElements instance) {
+	public Rubin_gem4OreBlockBlock(RubyModElements instance) {
 		super(instance, 9);
 	}
 

@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -14,10 +14,10 @@
       "value": "CUSTOM:Rubintab"
     },
     "armorTextureFile": "rubinovaiabronia",
-    "helmetName": "Рубиновый шлем",
-    "bodyName": "Рубиновый нагрудник",
-    "leggingsName": "Рубиновые поножи",
-    "bootsName": "Рубиновые ботинки",
+    "helmetName": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",
+    "bodyName": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+    "leggingsName": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ",
+    "bootsName": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

@@ -10,14 +10,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_armorShovelItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_armor_shovel")
+@RubyModElements.ModElement.Tag
+public class Rubin_armorShovelItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_armor_shovel")
 	public static final Item block = null;
 
-	public Rubin_armorShovelItem(RubinModElements instance) {
+	public Rubin_armorShovelItem(RubyModElements instance) {
 		super(instance, 5);
 	}
 

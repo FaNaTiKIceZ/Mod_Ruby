@@ -10,14 +10,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_armorPickaxeItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_armor_pickaxe")
+@RubyModElements.ModElement.Tag
+public class Rubin_armorPickaxeItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_armor_pickaxe")
 	public static final Item block = null;
 
-	public Rubin_armorPickaxeItem(RubinModElements instance) {
+	public Rubin_armorPickaxeItem(RubyModElements instance) {
 		super(instance, 3);
 	}
 

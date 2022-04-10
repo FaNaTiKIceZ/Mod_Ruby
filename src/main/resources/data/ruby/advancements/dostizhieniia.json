@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "ruby:rubin"
+    },
+    "title": {
+      "translate": "advancements.dostizhieniia.title"
+    },
+    "description": {
+      "translate": "advancements.dostizhieniia.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dostizhieniia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ruby:rubin",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element",
+      "ruby:deleted_mod_element"
+    ]
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

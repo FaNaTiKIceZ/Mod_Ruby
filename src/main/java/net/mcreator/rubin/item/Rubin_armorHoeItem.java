@@ -10,14 +10,14 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_armorHoeItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_armor_hoe")
+@RubyModElements.ModElement.Tag
+public class Rubin_armorHoeItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_armor_hoe")
 	public static final Item block = null;
 
-	public Rubin_armorHoeItem(RubinModElements instance) {
+	public Rubin_armorHoeItem(RubyModElements instance) {
 		super(instance, 6);
 	}
 

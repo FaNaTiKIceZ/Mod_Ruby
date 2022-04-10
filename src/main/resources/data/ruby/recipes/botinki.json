@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "ruby:rubin"
+  },
+  "result": {
+    "item": "ruby:rubin_armor_2_armor_boots"
+  }
+}

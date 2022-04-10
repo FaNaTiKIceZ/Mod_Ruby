@@ -10,14 +10,14 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_armorAxeItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_armor_axe")
+@RubyModElements.ModElement.Tag
+public class Rubin_armorAxeItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_armor_axe")
 	public static final Item block = null;
 
-	public Rubin_armorAxeItem(RubinModElements instance) {
+	public Rubin_armorAxeItem(RubyModElements instance) {
 		super(instance, 4);
 	}
 

@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem8_gem",
     "customModelName": "Normal",
-    "name": "Рубин",
+    "name": "пїЅпїЅпїЅпїЅпїЅ",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.rubin.item.RubinItem;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class RubintabItemGroup extends RubinModElements.ModElement {
-	public RubintabItemGroup(RubinModElements instance) {
+@RubyModElements.ModElement.Tag
+public class RubintabItemGroup extends RubyModElements.ModElement {
+	public RubintabItemGroup(RubyModElements instance) {
 		super(instance, 39);
 	}
 

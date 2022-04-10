@@ -50,7 +50,7 @@ public class KarierStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 1000) {
+					if ((random.nextInt(1000000) + 1) <= 5000) {
 						int count = random.nextInt(2) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -64,7 +64,7 @@ public class KarierStructure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("rubin", "ruby_veins"));
+									.getTemplateDefaulted(new ResourceLocation("ruby", "ruby_veins"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -78,7 +78,7 @@ public class KarierStructure {
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
 			event.getRegistry().register(feature.setRegistryName("karier"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rubin:karier"), configuredFeature);
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ruby:karier"), configuredFeature);
 		}
 	}
 

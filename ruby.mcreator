@@ -1,0 +1,423 @@
+{
+  "mod_elements": [
+    {
+      "name": "Rubin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armorHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_armor2Armor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Rubin_gem4OreBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Rubin_gem8Ore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_gem"
+    },
+    {
+      "name": "Rubintab",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Dostizhieniia",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniia"
+    },
+    {
+      "name": "Dostizhieniie2",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_2"
+    },
+    {
+      "name": "Dostizhieniie3",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_3"
+    },
+    {
+      "name": "Dostizhieniie4",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_4"
+    },
+    {
+      "name": "Dostizhieniie5",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_5"
+    },
+    {
+      "name": "Miech",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miech",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Motygha",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motygha",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kirka",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirka",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Motyghakraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motyghakraft",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Topor",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topor",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Lopata",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lopata",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Shliem",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shliem",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Kirasa",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirasa",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ponozhi",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponozhi",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Botinki",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botinki",
+      "path": "~/crafts"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks"
+    },
+    {
+      "name": "Blokrudy",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blokrudy",
+      "path": "~/crafts"
+    },
+    {
+      "name": "DiekraftBlokRudy",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diekraft_blok_rudy",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Karier",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karier"
+    },
+    {
+      "name": "RudaPierieplavka",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruda_pierieplavka",
+      "path": "~/crafts"
+    },
+    {
+      "name": "RudaPierieplavka2",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruda_pierieplavka_2",
+      "path": "~/crafts"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "advancements.dostizhieniie_5.descr": "�������� ��������� ������",
+      "item.ruby.rubin_armor_2_armor_helmet": "��������� ����",
+      "item.rubin.rubin_armor_2_armor_leggings": "��������� ������",
+      "advancements.dostizhieniie_3.title": "������ ��� ������",
+      "advancements.dostizhieniia.title": "������� �������",
+      "item.ruby.rubin_armor_hoe": "��������� ������",
+      "item.ruby.rubin_armor_2_armor_leggings": "��������� ������",
+      "advancements.dostizhieniie_3.descr": "�������� ��������� ���",
+      "item.rubin.rubin_armorpickaxe": "��������� �����",
+      "item.rubin.rubin_armoraxe": "��������� �����",
+      "item.ruby.rubin_armor_2_armor_chestplate": "��������� ���������",
+      "item.rubin.rubin_armor2armorbody": "��������� ���������",
+      "itemGroup.tabrubintab": "������",
+      "item.rubin.rubin_armor_sword": "��������� ���",
+      "item.rubin.rubin_armorshovel": "��������� ������",
+      "advancements.dostizhieniie_2.descr": "�������� ��������� ���������",
+      "advancements.dostizhieniie_5.title": "�� � ����� ��� ����?",
+      "item.rubin.rubin_armor2armorlegs": "��������� ������",
+      "item.rubin.rubin_armor_shovel": "��������� ������",
+      "item.ruby.rubin_armor_shovel": "��������� ������",
+      "item.rubin.rubin_armorsword": "��������� ���",
+      "block.rubin.rubin_gem": "��������� ����",
+      "item.ruby.rubin_armor_axe": "��������� �����",
+      "item.ruby.rubin_armor_sword": "��������� ���",
+      "item.rubin.rubin_armor_axe": "��������� �����",
+      "item.rubin.rubin_armor2armorboots": "��������� �������",
+      "block.rubin.rubin_gem8ore": "��������� ����",
+      "advancements.dostizhieniie_2.title": "������������ �������",
+      "block.rubin.rubin_gem_4_ore_block": "��������� ����",
+      "item.rubin.rubin_armor2armorhelmet": "��������� ����",
+      "block.rubin.rubin_gem4oreblock": "��������� ����",
+      "item.rubin.rubin_armor_2_armor_helmet": "��������� ����",
+      "item.ruby.rubin_armor_2_armor_boots": "��������� �������",
+      "advancements.dostizhieniie_4.title": "�� ��������?",
+      "item.rubin.rubin": "�����",
+      "block.ruby.rubin_gem": "��������� ����",
+      "item.rubin.rubin_armor_hoe": "��������� ������",
+      "advancements.dostizhieniie_4.descr": "������ ����� �����",
+      "item.ruby.rubin": "�����",
+      "advancements.dostizhieniia.descr": "�������� ���� ������ �����",
+      "item.rubin.rubin_armor_2_armor_boots": "��������� �������",
+      "block.ruby.rubin_gem_4_ore_block": "��������� ����",
+      "item.rubin.rubin_armor_pickaxe": "��������� �����",
+      "item.rubin.rubin_armorhoe": "��������� ������",
+      "item.rubin.rubin_armor_2_armor_chestplate": "��������� ���������",
+      "item.ruby.rubin_armor_pickaxe": "��������� �����"
+    },
+    "en_us": {
+      "advancements.dostizhieniie_5.descr": "�������� ��������� ������",
+      "item.ruby.rubin_armor_2_armor_helmet": "��������� ����",
+      "item.rubin.rubin_armor_2_armor_leggings": "Ruby Leggings",
+      "advancements.dostizhieniie_3.title": "������ ��� ������",
+      "advancements.dostizhieniia.title": "������� �������",
+      "item.ruby.rubin_armor_hoe": "��������� ������",
+      "item.ruby.rubin_armor_2_armor_leggings": "��������� ������",
+      "advancements.dostizhieniie_3.descr": "�������� ��������� ���",
+      "item.rubin.rubin_armorpickaxe": "Ruby Pickaxe",
+      "item.rubin.rubin_armoraxe": "Ruby Axe",
+      "item.ruby.rubin_armor_2_armor_chestplate": "��������� ���������",
+      "item.rubin.rubin_armor2armorbody": "Ruby Chestplate",
+      "itemGroup.tabrubintab": "������",
+      "item.rubin.rubin_armor_sword": "Ruby Sword",
+      "item.rubin.rubin_armorshovel": "Ruby Shovel",
+      "advancements.dostizhieniie_2.descr": "�������� ��������� ���������",
+      "advancements.dostizhieniie_5.title": "�� � ����� ��� ����?",
+      "item.rubin.rubin_armor2armorlegs": "Ruby Leggings",
+      "item.rubin.rubin_armor_shovel": "Ruby Shovel",
+      "item.ruby.rubin_armor_shovel": "��������� ������",
+      "item.rubin.rubin_armorsword": "Ruby Sword",
+      "block.rubin.rubin_gem": "Ruby Ore",
+      "item.ruby.rubin_armor_axe": "��������� �����",
+      "item.ruby.rubin_armor_sword": "��������� ���",
+      "item.rubin.rubin_armor_axe": "Ruby Axe",
+      "item.rubin.rubin_armor2armorboots": "Ruby Boots",
+      "block.rubin.rubin_gem8ore": "Ruby Ore",
+      "advancements.dostizhieniie_2.title": "������������ �������",
+      "block.rubin.rubin_gem_4_ore_block": "Ruby Block",
+      "item.rubin.rubin_armor2armorhelmet": "Ruby Helmet",
+      "block.rubin.rubin_gem4oreblock": "Ruby Block",
+      "item.rubin.rubin_armor_2_armor_helmet": "Ruby Helmet",
+      "item.ruby.rubin_armor_2_armor_boots": "��������� �������",
+      "advancements.dostizhieniie_4.title": "�� �������� ������������ ���� �����?",
+      "item.rubin.rubin": "Ruby",
+      "block.ruby.rubin_gem": "��������� ����",
+      "item.rubin.rubin_armor_hoe": "Ruby Hoe",
+      "advancements.dostizhieniie_4.descr": "������� ��������� ������",
+      "item.ruby.rubin": "�����",
+      "advancements.dostizhieniia.descr": "�������� ���� ������ �����",
+      "item.rubin.rubin_armor_2_armor_boots": "Ruby Boots",
+      "block.ruby.rubin_gem_4_ore_block": "��������� ����",
+      "item.rubin.rubin_armor_pickaxe": "Ruby Pickaxe",
+      "item.rubin.rubin_armorhoe": "Ruby Hoe",
+      "item.rubin.rubin_armor_2_armor_chestplate": "Ruby Chestplate",
+      "item.ruby.rubin_armor_pickaxe": "��������� �����"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "crafts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ruby",
+    "modName": "Ruby lite",
+    "version": "Alpha ",
+    "description": "A mod that adds a new ore that will combine the best characteristics of non-cerite and gold items",
+    "author": "FaNaTiK_IceZ",
+    "websiteURL": "https://modrinth.com/mod/icez",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": true,
+    "modPicture": "ava",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items-1.16.5",
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "��� � ����� ������",
+    "modElementsPackage": "net.mcreator.rubin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200115515
+}

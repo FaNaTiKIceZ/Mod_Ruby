@@ -1,38 +1,35 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Apache License version 2.0"
+license="All Rights Reserved"
 
 [[mods]]
-modId="rubin"
-version="Alpha"
-displayName="Rubin lite"
-credits="Мод в альфа версии"
-displayURL="https://mcreator.net"
+modId="ruby"
+version="0.0.0.0"
+displayName="Ruby lite"
+credits="пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+displayURL="https://modrinth.com/mod/icez"
 logoFile="logo.png"
 authors="FaNaTiK_IceZ"
+description='''
+A mod that adds a new ore that will combine the best characteristics of non-cerite and gold items
+'''
 
-[[dependencies.rubin]]
+[[dependencies.ruby]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.rubin]]
+[[dependencies.ruby]]
     modId="forge"
     mandatory=true
-    versionRange="[36.2.20]"
+    versionRange="[36.2.26]"
     ordering="NONE"
     side="BOTH"
 
 
-[[dependencies.rubin]]
-    modId="just_enough_items-1.16.5"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.rubin]]
+[[dependencies.ruby]]
     modId="just_enough_items"
     mandatory=false
     versionRange="[0,)"

@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "structure",
   "definition": {
     "structure": "ruby_veins",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 1000,
+    "spawnProbability": 5000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 2,
     "spawnLocation": "Underground",

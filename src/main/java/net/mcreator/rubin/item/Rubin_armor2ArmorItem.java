@@ -16,20 +16,20 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubinModElements;
+import net.mcreator.rubin.RubyModElements;
 
-@RubinModElements.ModElement.Tag
-public class Rubin_armor2ArmorItem extends RubinModElements.ModElement {
-	@ObjectHolder("rubin:rubin_armor_2_armor_helmet")
+@RubyModElements.ModElement.Tag
+public class Rubin_armor2ArmorItem extends RubyModElements.ModElement {
+	@ObjectHolder("ruby:rubin_armor_2_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("rubin:rubin_armor_2_armor_chestplate")
+	@ObjectHolder("ruby:rubin_armor_2_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("rubin:rubin_armor_2_armor_leggings")
+	@ObjectHolder("ruby:rubin_armor_2_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("rubin:rubin_armor_2_armor_boots")
+	@ObjectHolder("ruby:rubin_armor_2_armor_boots")
 	public static final Item boots = null;
 
-	public Rubin_armor2ArmorItem(RubinModElements instance) {
+	public Rubin_armor2ArmorItem(RubyModElements instance) {
 		super(instance, 7);
 	}
 
@@ -81,28 +81,28 @@ public class Rubin_armor2ArmorItem extends RubinModElements.ModElement {
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ruby:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("rubin_armor_2_armor_helmet"));
 		elements.items.add(
 				() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ruby:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("rubin_armor_2_armor_chestplate"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ruby:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("rubin_armor_2_armor_leggings"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "rubin:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ruby:textures/models/armor/rubinovaiabronia_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("rubin_armor_2_armor_boots"));
 	}

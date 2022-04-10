@@ -14,7 +14,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.rubin.item.Rubin_armorHoeItem;
-import net.mcreator.rubin.RubinMod;
+import net.mcreator.rubin.RubyMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -45,12 +45,12 @@ public class MotyghaProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				RubinMod.LOGGER.warn("Failed to load dependency entity for procedure Motygha!");
+				RubyMod.LOGGER.warn("Failed to load dependency entity for procedure Motygha!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
 			if (!dependencies.containsKey("itemstack"))
-				RubinMod.LOGGER.warn("Failed to load dependency itemstack for procedure Motygha!");
+				RubyMod.LOGGER.warn("Failed to load dependency itemstack for procedure Motygha!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -58,7 +58,7 @@ public class MotyghaProcedure {
 		if (itemstack.getItem() == Rubin_armorHoeItem.block && entity instanceof PlayerEntity) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("rubin:dostizhieniie_4"));
+						.getAdvancement(new ResourceLocation("ruby:dostizhieniie_4"));
 				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();
