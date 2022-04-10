@@ -2,8 +2,8 @@
   "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "������������ �������",
-    "achievementDescription": "�������� ��������� ���������",
+    "achievementName": "Прочнее обсидиана!",
+    "achievementDescription": "Заполучить рубиновый нагрудник",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armor2Armor.body"
     },

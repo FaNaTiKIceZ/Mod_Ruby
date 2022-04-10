@@ -2,7 +2,7 @@
   "_fv": 27,
   "_type": "block",
   "definition": {
-    "texture": "ore",
+    "texture": "ruda",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "��������� ����",
+    "name": "Рубиновая руда",
     "specialInfo": [],
     "hardness": 30.0,
     "resistance": 1200.0,
@@ -121,44 +121,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "bamboo_jungle_hills"
-      },
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "jungle_edge"
-      },
-      {
-        "value": "jungle_hills"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.FLOWING_LAVA"
-      },
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 1,
     "frequencyOnChunk": 2,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 8
+    "maxGenerateHeight": 9
   }
 }

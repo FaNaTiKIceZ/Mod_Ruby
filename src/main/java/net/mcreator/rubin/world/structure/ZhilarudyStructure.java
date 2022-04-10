@@ -31,7 +31,7 @@ import net.minecraft.util.Mirror;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class KarierStructure {
+public class ZhilarudyStructure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -50,21 +50,21 @@ public class KarierStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 5000) {
-						int count = random.nextInt(2) + 1;
+					if ((random.nextInt(1000000) + 1) <= 30000) {
+						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
-							int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
+							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
 							j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 10, j + 20, k + 10);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("ruby", "ruby_veins"));
+									.getTemplateDefaulted(new ResourceLocation("ruby", "zhila"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -77,21 +77,25 @@ public class KarierStructure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("karier"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ruby:karier"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("zhilarudy"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ruby:zhilarudy"), configuredFeature);
 		}
 	}
 
 	@SubscribeEvent
 	public static void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("jungle").equals(event.getName()))
-			biomeCriteria = true;
 		if (new ResourceLocation("bamboo_jungle").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("bamboo_jungle_hills").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("jungle").equals(event.getName()))
+			biomeCriteria = true;
 		if (new ResourceLocation("jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_jungle_edge").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("jungle_edge").equals(event.getName()))
 			biomeCriteria = true;

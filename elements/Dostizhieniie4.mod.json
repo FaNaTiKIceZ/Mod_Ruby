@@ -2,8 +2,8 @@
   "_fv": 27,
   "_type": "achievement",
   "definition": {
-    "achievementName": "�� �������� ������������ ���� �����?",
-    "achievementDescription": "������� ��������� ������",
+    "achievementName": "Переосмыслить свою жизнь",
+    "achievementDescription": "Сломать рубиновую кирку",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },

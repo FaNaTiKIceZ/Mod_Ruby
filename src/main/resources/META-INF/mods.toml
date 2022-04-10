@@ -4,9 +4,9 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="ruby"
-version="0.0.0.0"
-displayName="Ruby lite"
-credits="��� � ����� ������"
+version="1.0"
+displayName="Ruby"
+credits="In the future, there will be the development of a full version of the mod with dimensions, mobs, etc."
 displayURL="https://modrinth.com/mod/icez"
 logoFile="logo.png"
 authors="FaNaTiK_IceZ"
