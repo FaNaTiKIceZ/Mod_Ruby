@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "helmet_2",
+    "textureHelmet": "helmer_new",
     "enableBody": true,
     "textureBody": "bronia3",
     "enableLeggings": true,
-    "textureLeggings": "rubinovaiabronia_leggings",
+    "textureLeggings": "leggins",
     "enableBoots": true,
-    "textureBoots": "rubinovaiabronia_boots",
+    "textureBoots": "boots",
     "creativeTab": {
       "value": "CUSTOM:Rubintab"
     },

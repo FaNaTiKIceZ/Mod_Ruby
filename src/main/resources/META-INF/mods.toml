@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[37,)"
 license="All Rights Reserved"
 
 [[mods]]
@@ -17,14 +17,14 @@ A mod that adds a new ore that will combine the best characteristics of non-ceri
 [[dependencies.ruby]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.17.1]"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.ruby]]
     modId="forge"
     mandatory=true
-    versionRange="[36.2.26]"
+    versionRange="[37.1.1]"
     ordering="NONE"
     side="BOTH"
 

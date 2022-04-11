@@ -1,53 +1,42 @@
 
 package net.mcreator.rubin.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.mcreator.rubin.init.RubyModTabs;
+import net.mcreator.rubin.init.RubyModItems;
 
-import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubyModElements;
-
-@RubyModElements.ModElement.Tag
-public class Rubin_armorShovelItem extends RubyModElements.ModElement {
-	@ObjectHolder("ruby:rubin_armor_shovel")
-	public static final Item block = null;
-
-	public Rubin_armorShovelItem(RubyModElements instance) {
-		super(instance, 5);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new ShovelItem(new IItemTier() {
-			public int getMaxUses() {
+public class Rubin_armorShovelItem extends ShovelItem {
+	public Rubin_armorShovelItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 2031;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 12f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 5f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 5;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 22;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RubinItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
 			}
-		}, 1, -3f, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("rubin_armor_shovel"));
+		}, 1, -3f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
+		setRegistryName("rubin_armor_shovel");
 	}
 }

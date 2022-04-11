@@ -1,67 +1,57 @@
 
 package net.mcreator.rubin.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.mcreator.rubin.init.RubyModTabs;
+import net.mcreator.rubin.init.RubyModItems;
 
-import net.mcreator.rubin.itemgroup.RubintabItemGroup;
-import net.mcreator.rubin.RubyModElements;
-
-@RubyModElements.ModElement.Tag
-public class Rubin_armorPickaxeItem extends RubyModElements.ModElement {
-	@ObjectHolder("ruby:rubin_armor_pickaxe")
-	public static final Item block = null;
-
-	public Rubin_armorPickaxeItem(RubyModElements instance) {
-		super(instance, 3);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class Rubin_armorPickaxeItem extends PickaxeItem {
+	public Rubin_armorPickaxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 2031;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 12f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 4.5f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 4;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 22;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RubinItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
 			}
-		}, 1, -2.5f, new Item.Properties().group(RubintabItemGroup.tab).isImmuneToFire()) {
-			@Override
-			public boolean hasContainerItem() {
-				return true;
-			}
+		}, 1, -2.5f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
+		setRegistryName("rubin_armor_pickaxe");
+	}
 
-			@Override
-			public ItemStack getContainerItem(ItemStack itemstack) {
-				return new ItemStack(this);
-			}
+	@Override
+	public boolean hasContainerItem(ItemStack stack) {
+		return true;
+	}
 
-			@Override
-			public boolean isRepairable(ItemStack itemstack) {
-				return false;
-			}
-		}.setRegistryName("rubin_armor_pickaxe"));
+	@Override
+	public ItemStack getContainerItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 }
