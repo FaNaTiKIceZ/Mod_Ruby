@@ -34,9 +34,8 @@ public class Rubin_armorAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN.get()));
 			}
 		}, 1, -2.75f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-		setRegistryName("rubin_armor_axe");
 	}
 }

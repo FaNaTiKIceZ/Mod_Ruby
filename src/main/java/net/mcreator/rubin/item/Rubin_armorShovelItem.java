@@ -34,9 +34,8 @@ public class Rubin_armorShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-		setRegistryName("rubin_armor_shovel");
 	}
 }

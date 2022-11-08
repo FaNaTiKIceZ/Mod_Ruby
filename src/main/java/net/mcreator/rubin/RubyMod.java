@@ -16,15 +16,20 @@ package net.mcreator.rubin;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.rubin.init.RubyModTabs;
+import net.mcreator.rubin.init.RubyModItems;
+import net.mcreator.rubin.init.RubyModFeatures;
+import net.mcreator.rubin.init.RubyModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +46,13 @@ public class RubyMod {
 
 	public RubyMod() {
 		RubyModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		RubyModBlocks.REGISTRY.register(bus);
+		RubyModItems.REGISTRY.register(bus);
+
+		RubyModFeatures.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

@@ -1,11 +1,11 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem8_gem",
     "customModelName": "Normal",
-    "name": "Рубин",
+    "name": "Ruby",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Rubintab"
@@ -29,6 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "hasDispenseBehavior": false
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

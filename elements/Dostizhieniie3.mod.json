@@ -1,9 +1,9 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Смерть для нежити",
-    "achievementDescription": "Заполучить рубиновый меч",
+    "achievementName": "Red Death for the Undead",
+    "achievementDescription": "Get the Ruby Sword",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorSword"
     },

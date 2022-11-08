@@ -3,5 +3,6 @@
   "textures": {
     "all": "ruby:blocks/rubin_gem6_ore_block",
     "particle": "ruby:blocks/rubin_gem6_ore_block"
-  }
+  },
+  "render_type": "solid"
 }

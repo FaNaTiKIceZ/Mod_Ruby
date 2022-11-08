@@ -1,11 +1,11 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem_hoe",
     "customModelName": "Normal",
-    "name": "��������� ������",
+    "name": "Ruby Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

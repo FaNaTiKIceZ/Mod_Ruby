@@ -4,9 +4,6 @@
  */
 package net.mcreator.rubin.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -17,10 +14,10 @@ public class RubyModTabs {
 		TAB_RUBINTAB = new CreativeModeTab("tabrubintab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(RubyModItems.RUBIN);
+				return new ItemStack(RubyModItems.RUBIN.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return true;
 			}

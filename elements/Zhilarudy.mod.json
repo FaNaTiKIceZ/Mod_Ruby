@@ -1,17 +1,17 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "structure",
   "definition": {
     "structure": "zhila",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 30000,
+    "spawnProbability": 100000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Underground",
-    "spawnHeightOffset": 20,
-    "spawnXOffset": 10,
-    "spawnZOffset": 10,
+    "spawnHeightOffset": -40,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -37,6 +37,9 @@
       },
       {
         "value": "jungle_edge"
+      },
+      {
+        "value": "lush_caves"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

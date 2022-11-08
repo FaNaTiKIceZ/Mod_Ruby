@@ -1,6 +1,8 @@
 
 package net.mcreator.rubin.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
@@ -23,7 +25,6 @@ public class Rubin_gem8OreBlock extends Block {
 	public Rubin_gem8OreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.NETHER_ORE).strength(30f, 1200f).lightLevel(s -> 1)
 				.requiresCorrectToolForDrops());
-		setRegistryName("rubin_gem");
 	}
 
 	@Override
@@ -43,6 +44,6 @@ public class Rubin_gem8OreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(RubyModItems.RUBIN));
+		return Collections.singletonList(new ItemStack(RubyModItems.RUBIN.get()));
 	}
 }

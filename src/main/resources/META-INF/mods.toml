@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[43,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="ruby"
-version="1.0"
+version="1.01.19"
 displayName="Ruby"
 credits="In the future, there will be the development of a full version of the mod with dimensions, mobs, etc."
 displayURL="https://modrinth.com/mod/icez"
@@ -17,22 +17,16 @@ A mod that adds a new ore that will combine the best characteristics of non-ceri
 [[dependencies.ruby]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.ruby]]
     modId="forge"
     mandatory=true
-    versionRange="[37.1.1]"
+    versionRange="[43.1.47]"
     ordering="NONE"
     side="BOTH"
 
 
-[[dependencies.ruby]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

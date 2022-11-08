@@ -1,5 +1,5 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -14,10 +14,10 @@
       "value": "CUSTOM:Rubintab"
     },
     "armorTextureFile": "rubinovaiabronia",
-    "helmetName": "��������� ����",
-    "bodyName": "��������� ���������",
-    "leggingsName": "��������� ������",
-    "bootsName": "��������� �������",
+    "helmetName": "Ruby Helmet",
+    "bodyName": "Ruby chestplate",
+    "leggingsName": "Ruby Leggings",
+    "bootsName": "Ruby Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

@@ -41,7 +41,7 @@ public abstract class Rubin_armor2ArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN.get()));
 			}
 
 			@Override
@@ -64,7 +64,6 @@ public abstract class Rubin_armor2ArmorItem extends ArmorItem {
 	public static class Helmet extends Rubin_armor2ArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-			setRegistryName("rubin_armor_2_armor_helmet");
 		}
 
 		@Override
@@ -76,7 +75,6 @@ public abstract class Rubin_armor2ArmorItem extends ArmorItem {
 	public static class Chestplate extends Rubin_armor2ArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-			setRegistryName("rubin_armor_2_armor_chestplate");
 		}
 
 		@Override
@@ -88,7 +86,6 @@ public abstract class Rubin_armor2ArmorItem extends ArmorItem {
 	public static class Leggings extends Rubin_armor2ArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-			setRegistryName("rubin_armor_2_armor_leggings");
 		}
 
 		@Override
@@ -100,7 +97,6 @@ public abstract class Rubin_armor2ArmorItem extends ArmorItem {
 	public static class Boots extends Rubin_armor2ArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-			setRegistryName("rubin_armor_2_armor_boots");
 		}
 
 		@Override

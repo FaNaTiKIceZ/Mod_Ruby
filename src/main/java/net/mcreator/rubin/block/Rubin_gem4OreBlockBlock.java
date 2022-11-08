@@ -19,7 +19,6 @@ import java.util.Collections;
 public class Rubin_gem4OreBlockBlock extends Block {
 	public Rubin_gem4OreBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.NETHERITE_BLOCK).strength(50f, 1200f).requiresCorrectToolForDrops());
-		setRegistryName("rubin_gem_4_ore_block");
 	}
 
 	@Override

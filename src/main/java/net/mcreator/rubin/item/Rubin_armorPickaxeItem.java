@@ -34,19 +34,18 @@ public class Rubin_armorPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN.get()));
 			}
 		}, 1, -2.5f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-		setRegistryName("rubin_armor_pickaxe");
 	}
 
 	@Override
-	public boolean hasContainerItem(ItemStack stack) {
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
 		return true;
 	}
 
 	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
 		return new ItemStack(this);
 	}
 

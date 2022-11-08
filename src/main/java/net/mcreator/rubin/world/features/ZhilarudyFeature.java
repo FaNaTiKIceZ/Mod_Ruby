@@ -4,6 +4,7 @@ package net.mcreator.rubin.world.features;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
@@ -13,18 +14,30 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.Level;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import java.util.Set;
+import java.util.List;
 
 public class ZhilarudyFeature extends Feature<NoneFeatureConfiguration> {
-	public static final ZhilarudyFeature FEATURE = (ZhilarudyFeature) new ZhilarudyFeature().setRegistryName("ruby:zhilarudy");
-	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE.configured(FeatureConfiguration.NONE);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("bamboo_jungle"),
-			new ResourceLocation("bamboo_jungle_hills"), new ResourceLocation("jungle_hills"), new ResourceLocation("jungle_edge"),
-			new ResourceLocation("modified_jungle"), new ResourceLocation("modified_jungle_edge"), new ResourceLocation("jungle"));
+	public static ZhilarudyFeature FEATURE = null;
+	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
+	public static Holder<PlacedFeature> PLACED_FEATURE = null;
+
+	public static Feature<?> feature() {
+		FEATURE = new ZhilarudyFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("ruby:zhilarudy", FEATURE, FeatureConfiguration.NONE);
+		PLACED_FEATURE = PlacementUtils.register("ruby:zhilarudy", CONFIGURED_FEATURE, List.of());
+		return FEATURE;
+	}
+
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 
 	public ZhilarudyFeature() {
@@ -33,25 +46,21 @@ public class ZhilarudyFeature extends Feature<NoneFeatureConfiguration> {
 
 	@Override
 	public boolean place(FeaturePlaceContext<NoneFeatureConfiguration> context) {
-		boolean dimensionCriteria = false;
-		ResourceKey<Level> dimensionType = context.level().getLevel().dimension();
-		if (dimensionType == Level.OVERWORLD)
-			dimensionCriteria = true;
-		if (!dimensionCriteria)
+		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("ruby", "zhila"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 30000) {
-			boolean anyPlaced = false;
+		boolean anyPlaced = false;
+		if ((context.random().nextInt(1000000) + 1) <= 100000) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
 				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k);
-				j = Math.abs(context.random().nextInt(Math.max(1, j)) - 24);
-				BlockPos spawnTo = new BlockPos(i + 10, j + 20, k + 10);
+				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
+				BlockPos spawnTo = new BlockPos(i + 0, j + -40, k + 0);
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
 						new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)])
 								.setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
@@ -60,8 +69,7 @@ public class ZhilarudyFeature extends Feature<NoneFeatureConfiguration> {
 					anyPlaced = true;
 				}
 			}
-			return anyPlaced;
 		}
-		return false;
+		return anyPlaced;
 	}
 }

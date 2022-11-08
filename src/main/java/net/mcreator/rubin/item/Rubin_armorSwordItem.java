@@ -34,9 +34,8 @@ public class Rubin_armorSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(RubyModItems.RUBIN));
+				return Ingredient.of(new ItemStack(RubyModItems.RUBIN.get()));
 			}
 		}, 3, -2.4000000000000001f, new Item.Properties().tab(RubyModTabs.TAB_RUBINTAB).fireResistant());
-		setRegistryName("rubin_armor_sword");
 	}
 }

@@ -1,11 +1,11 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem_sword",
     "customModelName": "Normal",
-    "name": "��������� ���",
+    "name": "Ruby Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

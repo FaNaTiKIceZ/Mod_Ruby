@@ -1,11 +1,11 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "rubin_gem_axe",
     "customModelName": "Normal",
-    "name": "Рубиновый топор",
+    "name": "Ruby Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Rubintab"

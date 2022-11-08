@@ -3,5 +3,6 @@
   "textures": {
     "all": "ruby:blocks/ruda",
     "particle": "ruby:blocks/ruda"
-  }
+  },
+  "render_type": "solid"
 }

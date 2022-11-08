@@ -1,9 +1,9 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Переосмыслить свою жизнь",
-    "achievementDescription": "Сломать рубиновую кирку",
+    "achievementName": "Rethink your life",
+    "achievementDescription": "Break the ruby Hoe",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },

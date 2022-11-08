@@ -1,9 +1,9 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Алый камень",
-    "achievementDescription": "Получить свой первый рубин",
+    "achievementName": "Red Gem",
+    "achievementDescription": "Get your first Ruby",
     "achievementIcon": {
       "value": "CUSTOM:Rubin"
     },

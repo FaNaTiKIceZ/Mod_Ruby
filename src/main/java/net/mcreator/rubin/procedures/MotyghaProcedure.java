@@ -23,7 +23,7 @@ import java.util.Iterator;
 public class MotyghaProcedure {
 	@SubscribeEvent
 	public static void onItemDestroyed(PlayerDestroyItemEvent event) {
-		execute(event, event.getPlayer(), event.getOriginal());
+		execute(event, event.getEntity(), event.getOriginal());
 	}
 
 	public static void execute(Entity entity, ItemStack itemstack) {
@@ -33,7 +33,7 @@ public class MotyghaProcedure {
 	private static void execute(@Nullable Event event, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (itemstack.getItem() == RubyModItems.RUBIN_ARMOR_HOE && entity instanceof Player) {
+		if (itemstack.getItem() == RubyModItems.RUBIN_ARMOR_HOE.get() && entity instanceof Player) {
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("ruby:dostizhieniie_4"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

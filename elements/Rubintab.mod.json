@@ -1,8 +1,8 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "tab",
   "definition": {
-    "name": "������",
+    "name": "Ruby",
     "icon": {
       "value": "CUSTOM:Rubin"
     },

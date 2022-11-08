@@ -1,9 +1,9 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "На один шаг вперёд к переосмыслу жизни",
-    "achievementDescription": "Получить рубиновую мотыгу",
+    "achievementName": "One step forward to rethinking life",
+    "achievementDescription": "Get a ruby hoe",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armorHoe"
     },

@@ -1,9 +1,9 @@
 {
-  "_fv": 27,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Прочнее обсидиана!",
-    "achievementDescription": "Заполучить рубиновый нагрудник",
+    "achievementName": "Stronger than obsidian!",
+    "achievementDescription": "Get a ruby chestplate",
     "achievementIcon": {
       "value": "CUSTOM:Rubin_armor2Armor.body"
     },
