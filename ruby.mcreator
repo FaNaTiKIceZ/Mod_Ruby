@@ -403,7 +403,7 @@
     "description": "A mod that adds a new ore that will combine the best characteristics of non-cerite and gold items",
     "author": "FaNaTiK_IceZ",
     "websiteURL": "https://modrinth.com/mod/icez",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "disableForgeVersionCheck": false,
     "serverSideOnly": true,
     "modPicture": "ava",
@@ -412,7 +412,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "In the future, there will be the development of a full version of the mod with dimensions, mobs, etc.",
+    "credits": "This is a simple mod that adds a new ore with a vanilla style! An ore that will combine the best characteristics of netherite and gold items.",
     "modElementsPackage": "net.mcreator.rubin",
     "lockBaseModFiles": false
   },

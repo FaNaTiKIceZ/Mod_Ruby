@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="All Rights Reserved"
+license="MIT License"
 
 [[mods]]
 modId="ruby"
 version="1.01.19"
 displayName="Ruby"
-credits="In the future, there will be the development of a full version of the mod with dimensions, mobs, etc."
+credits="This is a simple mod that adds a new ore with a vanilla style! An ore that will combine the best characteristics of netherite and gold items."
 displayURL="https://modrinth.com/mod/icez"
 logoFile="logo.png"
 authors="FaNaTiK_IceZ"
