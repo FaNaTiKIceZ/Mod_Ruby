@@ -1,36 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-    "0": {
-      "item": "ruby:rubin"
-    },
-    "1": {
-      "item": "ruby:rubin"
-    },
-    "2": {
-      "item": "ruby:rubin"
-    },
-    "3": {
-      "item": "ruby:rubin"
-    },
-    "4": {
-      "item": "ruby:rubin"
-    },
-    "5": {
-      "item": "ruby:rubin"
-    },
-    "6": {
-      "item": "ruby:rubin"
-    },
-    "7": {
-      "item": "ruby:rubin"
-    },
-    "8": {
+    "#": {
       "item": "ruby:rubin"
     }
   },

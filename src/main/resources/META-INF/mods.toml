@@ -24,7 +24,7 @@ A mod that adds a new ore that will combine the best characteristics of non-ceri
 [[dependencies.ruby]]
     modId="forge"
     mandatory=true
-    versionRange="[43.1.47]"
+    versionRange="[43.2.0]"
     ordering="NONE"
     side="BOTH"
 

@@ -30,14 +30,10 @@ public class RubyModItems {
 	public static final RegistryObject<Item> RUBIN_ARMOR_AXE = REGISTRY.register("rubin_armor_axe", () -> new Rubin_armorAxeItem());
 	public static final RegistryObject<Item> RUBIN_ARMOR_SHOVEL = REGISTRY.register("rubin_armor_shovel", () -> new Rubin_armorShovelItem());
 	public static final RegistryObject<Item> RUBIN_ARMOR_HOE = REGISTRY.register("rubin_armor_hoe", () -> new Rubin_armorHoeItem());
-	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_HELMET = REGISTRY.register("rubin_armor_2_armor_helmet",
-			() -> new Rubin_armor2ArmorItem.Helmet());
-	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_CHESTPLATE = REGISTRY.register("rubin_armor_2_armor_chestplate",
-			() -> new Rubin_armor2ArmorItem.Chestplate());
-	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_LEGGINGS = REGISTRY.register("rubin_armor_2_armor_leggings",
-			() -> new Rubin_armor2ArmorItem.Leggings());
-	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_BOOTS = REGISTRY.register("rubin_armor_2_armor_boots",
-			() -> new Rubin_armor2ArmorItem.Boots());
+	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_HELMET = REGISTRY.register("rubin_armor_2_armor_helmet", () -> new Rubin_armor2ArmorItem.Helmet());
+	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_CHESTPLATE = REGISTRY.register("rubin_armor_2_armor_chestplate", () -> new Rubin_armor2ArmorItem.Chestplate());
+	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_LEGGINGS = REGISTRY.register("rubin_armor_2_armor_leggings", () -> new Rubin_armor2ArmorItem.Leggings());
+	public static final RegistryObject<Item> RUBIN_ARMOR_2_ARMOR_BOOTS = REGISTRY.register("rubin_armor_2_armor_boots", () -> new Rubin_armor2ArmorItem.Boots());
 	public static final RegistryObject<Item> RUBIN_GEM = block(RubyModBlocks.RUBIN_GEM, RubyModTabs.TAB_RUBINTAB);
 	public static final RegistryObject<Item> RUBIN_GEM_4_ORE_BLOCK = block(RubyModBlocks.RUBIN_GEM_4_ORE_BLOCK, RubyModTabs.TAB_RUBINTAB);
 

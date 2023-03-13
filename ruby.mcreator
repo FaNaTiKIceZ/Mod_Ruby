@@ -5,42 +5,78 @@
       "type": "item",
       "sortid": 1,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/item/RubinItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin.json"
+        ]
+      }
     },
     {
       "name": "Rubin_armorPickaxe",
       "type": "tool",
       "sortid": 3,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/item/Rubin_armorPickaxeItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "Rubin_armorAxe",
       "type": "tool",
       "sortid": 4,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/item/Rubin_armorAxeItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_axe.json"
+        ]
+      }
     },
     {
       "name": "Rubin_armorSword",
       "type": "tool",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ruby/models/item/rubin_armor_sword.json",
+          "src/main/java/net/mcreator/rubin/item/Rubin_armorSwordItem.java"
+        ]
+      }
     },
     {
       "name": "Rubin_armorShovel",
       "type": "tool",
       "sortid": 5,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/item/Rubin_armorShovelItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_shovel.json"
+        ]
+      }
     },
     {
       "name": "Rubin_armorHoe",
       "type": "tool",
       "sortid": 6,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/item/Rubin_armorHoeItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_hoe.json"
+        ]
+      }
     },
     {
       "name": "Rubin_armor2Armor",
@@ -52,7 +88,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/ruby/models/item/rubin_armor_2_armor_helmet.json",
+          "src/main/java/net/mcreator/rubin/item/Rubin_armor2ArmorItem.java",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_2_armor_leggings.json",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_2_armor_chestplate.json",
+          "src/main/resources/assets/ruby/models/item/rubin_armor_2_armor_boots.json"
+        ]
       }
     },
     {
@@ -60,7 +103,15 @@
       "type": "block",
       "sortid": 9,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ruby/models/block/rubin_gem_4_ore_block.json",
+          "src/main/java/net/mcreator/rubin/block/Rubin_gem4OreBlockBlock.java",
+          "src/main/resources/assets/ruby/blockstates/rubin_gem_4_ore_block.json",
+          "src/main/resources/assets/ruby/models/item/rubin_gem_4_ore_block.json"
+        ]
+      }
     },
     {
       "name": "Rubin_gem8Ore",
@@ -68,14 +119,25 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rubin_gem"
+      "registry_name": "rubin_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ruby/blockstates/rubin_gem.json",
+          "src/main/java/net/mcreator/rubin/block/Rubin_gem8OreBlock.java",
+          "src/main/resources/assets/ruby/models/block/rubin_gem.json",
+          "src/main/resources/assets/ruby/models/item/rubin_gem.json"
+        ]
+      }
     },
     {
       "name": "Rubintab",
       "type": "tab",
       "sortid": 39,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Dostizhieniia",
@@ -83,7 +145,12 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dostizhieniia"
+      "registry_name": "dostizhieniia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/advancements/dostizhieniia.json"
+        ]
+      }
     },
     {
       "name": "Dostizhieniie2",
@@ -91,7 +158,12 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dostizhieniie_2"
+      "registry_name": "dostizhieniie_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/advancements/dostizhieniie_2.json"
+        ]
+      }
     },
     {
       "name": "Dostizhieniie3",
@@ -99,7 +171,12 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dostizhieniie_3"
+      "registry_name": "dostizhieniie_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/advancements/dostizhieniie_3.json"
+        ]
+      }
     },
     {
       "name": "Dostizhieniie4",
@@ -107,7 +184,12 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dostizhieniie_4"
+      "registry_name": "dostizhieniie_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/advancements/dostizhieniie_4.json"
+        ]
+      }
     },
     {
       "name": "Dostizhieniie5",
@@ -115,7 +197,12 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dostizhieniie_5"
+      "registry_name": "dostizhieniie_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/advancements/dostizhieniie_5.json"
+        ]
+      }
     },
     {
       "name": "Miech",
@@ -124,6 +211,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "miech",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/rubin_sword.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -134,6 +226,9 @@
       "locked_code": false,
       "registry_name": "motygha",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubin/procedures/MotyghaProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -153,6 +248,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kirka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/kirka.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -162,6 +262,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "motyghakraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/motyghakraft.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -171,6 +276,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "topor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/topor.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -180,6 +290,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lopata",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/lopata.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -189,6 +304,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shliem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/shliem.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -198,6 +318,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kirasa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/kirasa.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -207,6 +332,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ponozhi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/ponozhi.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -216,6 +346,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "botinki",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/botinki.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -224,7 +359,12 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "beacon_base_block_blocks"
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      }
     },
     {
       "name": "DragonImmuneBlocks",
@@ -232,7 +372,12 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dragon_immune_blocks"
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      }
     },
     {
       "name": "WitherImmuneBlocks",
@@ -240,7 +385,12 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wither_immune_blocks"
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      }
     },
     {
       "name": "Blokrudy",
@@ -249,6 +399,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blokrudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/blokrudy.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -258,6 +413,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diekraft_blok_rudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/diekraft_blok_rudy.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -267,6 +427,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruda_pierieplavka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/ruda_pierieplavka.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -276,6 +441,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruda_pierieplavka_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/recipes/ruda_pierieplavka_2.json"
+        ]
+      },
       "path": "~/crafts"
     },
     {
@@ -284,7 +454,13 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zhilarudy"
+      "registry_name": "zhilarudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ruby/forge/biome_modifier/zhilarudy_biome_modifier.json",
+          "src/main/java/net/mcreator/rubin/world/features/ZhilarudyFeature.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -416,5 +592,5 @@
     "modElementsPackage": "net.mcreator.rubin",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200345616
+  "mcreatorVersion": 202300110610
 }

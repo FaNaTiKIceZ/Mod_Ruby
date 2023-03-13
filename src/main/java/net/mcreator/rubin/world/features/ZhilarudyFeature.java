@@ -61,11 +61,8 @@ public class ZhilarudyFeature extends Feature<NoneFeatureConfiguration> {
 				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k);
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				BlockPos spawnTo = new BlockPos(i + 0, j + -40, k + 0);
-				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
-						new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)])
-								.setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
-								.addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false),
-						context.random(), 2)) {
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)]).setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
+						.addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false), context.random(), 2)) {
 					anyPlaced = true;
 				}
 			}
